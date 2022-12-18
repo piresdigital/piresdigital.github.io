@@ -9,17 +9,21 @@ const Portfolio = () => {
           Portfolio <span>&nbsp;</span>
         </h1>
         <div class='portfolio-grid'>
-          {portfolioData.map((item, index) => {
-            return (
-              <div key={'portfolio_' + index} class='portfolio-grid-item'>
-                <a rel='noreferrer' target='_blank' href={item.link}>
-                  <img src={item.picture} alt={item.title} />
-                  {item.title}
-                  <span> [{item.job}]</span>
-                </a>
-              </div>
-            );
-          })}
+          {portfolioData.length > 0 ? (
+            portfolioData.map((item, index) => {
+              return (
+                <div key={'portfolio_' + index} class='portfolio-grid-item'>
+                  <a rel='noreferrer' target='_blank' href={item.link}>
+                    <img src={item.picture} alt={item.title} />
+                    {item.title}
+                    <span> [{item.job}]</span>
+                  </a>
+                </div>
+              );
+            })
+          ) : (
+            <p>Sorry, I haven't uploaded any project yet.</p>
+          )}
         </div>
       </div>
     </WithTransition>
