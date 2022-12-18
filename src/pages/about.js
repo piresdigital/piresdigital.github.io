@@ -28,10 +28,12 @@ const About = () => {
             <div className='about-contact'>
               <ul>
                 <li>
-                  <span>Email</span> dhavidy@piresdigital.com
+                  <span>Email</span>
+                  <a href='mailto:'>dhavidy@piresdigital.com</a>
                 </li>
                 <li>
-                  <span>Phone</span> 021 0324709
+                  <span>Phone</span>
+                  <a href='tel:+64210324709'>021 0324709</a>
                 </li>
                 <li>
                   <span>Website</span>
@@ -100,7 +102,7 @@ const About = () => {
           <div className='about-section-columns about-reviews'>
             <div className='about-review'>
               <div className='about-review-image'>
-                <img src='https://api.lorem.space/image/face?w=200&h=200' alt='Profile' />
+                <img src='/fb-logo.jpg' alt='FB Painting' />
               </div>
               <p className='about-review-text'>
                 Communication with Dhavidy was fluid and uncomplicated, and he always went
@@ -116,7 +118,7 @@ const About = () => {
             </div>
             <div className='about-review'>
               <div className='about-review-image'>
-                <img src='https://api.lorem.space/image/face?w=200&h=200' alt='Profile' />
+                <img src='/spiffy-logo.jpg' alt='JD Spiffy Cleaners' />
               </div>
               <p className='about-review-text'>
                 Dhavidy was a great help in creating our company website, He is very
@@ -124,7 +126,7 @@ const About = () => {
               </p>
               <div className='about-review-from'>
                 Jucelia
-                <span>JDs Spiffy Cleaning</span>
+                <span>JDs Spiffy Cleaners</span>
               </div>
               <span className='about-review-quote'>
                 <MdOutlineFormatQuote />

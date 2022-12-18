@@ -6,11 +6,7 @@ const Home = () => {
   return (
     <WithTransition>
       <div className='intro'>
-        <img
-          className='intro-profile'
-          src='https://api.lorem.space/image/face?w=500&h=500'
-          alt='Profile'
-        />
+        <img className='intro-profile' src='/profile.jpg' alt='Dhavidy Profile' />
         <h2 className='intro-title'>Dhavidy Pires</h2>
         <h3 className='intro-subtitle'>
           <TypeIt

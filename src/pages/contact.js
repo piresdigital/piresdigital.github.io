@@ -51,17 +51,23 @@ const Contact = () => {
         </div>
         <div className='contact-socials'>
           <span>
-            <a target='_blank' rel='noreferrer' href='https://google.com/'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.facebook.com/dhavidyluizpires/'>
               <FaFacebookF />
             </a>
           </span>
           <span>
-            <a target='_blank' rel='noreferrer' href='https://google.com/'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.instagram.com/dhavidyluiz/'>
               <FaInstagram />
             </a>
           </span>
           <span>
-            <a target='_blank' rel='noreferrer' href='https://google.com/'>
+            <a target='_blank' rel='noreferrer' href='https://wa.me/64210324709'>
               <FaWhatsapp />
             </a>
           </span>

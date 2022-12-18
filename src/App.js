@@ -47,10 +47,7 @@ function App() {
             <div className='sidebar' style={mobileNav ? { left: 0 } : {}}>
               <div className='sidebar-profile'>
                 <div className='image'>
-                  <img
-                    src='https://api.lorem.space/image/face?w=200&h=200'
-                    alt='Profile'
-                  />
+                  <img src='/profile.jpg' alt='Dhavidy Profile' />
                 </div>
                 <span className='sidebar-title'>Dhavidy Pires</span>
                 <span className='sidebar-subtitle'>Full-stack Developer</span>
